@@ -1,0 +1,25 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "A storefront CLI app",
+  "main": "BAMazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasapper/BAMazon.git"
+  },
+  "author": "Jason Apfel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasapper/BAMazon/issues"
+  },
+  "homepage": "https://github.com/jasapper/BAMazon#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "console.table": "^0.9.1",
+    "inquirer": "^5.0.0",
+    "mysql": "^2.15.0"
+  }
+}
