@@ -1,4 +1,4 @@
-CREATE DATABASE  IF NOT EXISTS `bamazon` /*!40100 DEFAULT CHARACTER SET latin1 */;
+CREATE DATABASE IF NOT EXISTS `bamazon` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `bamazon`;
 -- MySQL dump 10.13  Distrib 5.7.20, for Linux (x86_64)
 --
@@ -40,7 +40,7 @@ CREATE TABLE `products` (
 
 LOCK TABLES `products` WRITE;
 /*!40000 ALTER TABLE `products` DISABLE KEYS */;
-INSERT INTO `products` VALUES (1,'Batteries (12pk AA)','Electronics',5.99,1500),(2,'Digital Camera','Electronics',55.49,1500),(3,'Palm Tree','Garden',99.95,1500),(4,'Insecticide','Garden',9.99,1500),(5,'Floor Mats','Automotive',19.54,1500),(6,'Racing Decals','Automotive',15.99,1500),(7,'Hair Gel','Health & Beauty',4.50,1000),(8,'Shampoo','Health & Beauty',6.29,1500),(9,'Corn Pops','Foodstuffs',3.49,1500),(10,'Pretzel Sticks','Foodstuffs',2.89,2500),(11,'Ferrari GT','Automotive',150000.00,100);
+INSERT INTO `products` VALUES (1,'Batteries (12pk AA)','Electronics',6.00,1500),(2,'Digital Camera','Electronics',55.00,1500),(3,'Palm Tree','Garden',99.00,1500),(4,'Insecticide','Garden',9.00,1500),(5,'Floor Mats','Automotive',19.00,1500),(6,'Racing Decals','Automotive',200.00,1500),(7,'Hair Gel','Health & Beauty',4.00,1000),(8,'Shampoo','Health & Beauty',6.00,1500),(9,'Corn Pops','Foodstuffs',4.00,1500),(10,'Pretzel Sticks','Foodstuffs',2.89,2500),(11,'Ferrari GT','Automotive',99999.00,100);
 /*!40000 ALTER TABLE `products` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
