@@ -11,3 +11,8 @@ var connection = mysql.createConnection({
     database: "bamazon"
   });
   
+  connection.connect(function(err){
+    if (err) throw err;
+    console.log(chalk.green("Connected to database. ID is: " + connection.threadId))
+  });
+  
