@@ -80,7 +80,7 @@ var connection = mysql.createConnection({
       message: "Would you like to place another order?"
     }]).then(function(answer){
       if(answer.choice){
-        placeOrder();
+        listItems();
       }
       else{
         console.log(chalk.magentaBright.bold("\nThank you for shopping at BAMazon!\nCome back soon!!\n"));
