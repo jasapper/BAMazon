@@ -3,7 +3,7 @@
 BAMamazon! is a very straightforward console/commandline application version of everyone's favorite online behemeath, written is Node.ja. It is intended to show the customer shopping experience at its most basic levels. Browse the list of items for sale, select an item and quantity to purchase, and if enough items are in stock the sale is completed and order total shown, although no money or products are actually changing hands.
 
 ### Overview
-There will be two "points-of-entry": as a typical cutomer or a store manager, the latter of which will have some administrative/management options available.
+After starting the app you will be shown the list of items available. Proceed by choosing any of the items followed by the desired quantity of each.
 
 As this app is run through your terminal aka console the steps needed in order to successfully run the application may be different than what you are familiar with.
 
