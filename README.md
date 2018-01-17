@@ -5,19 +5,18 @@ BAMamazon! is a very straightforward console/commandline application version of 
 ### Overview
 After starting the app you will be shown the list of items available. Proceed by choosing any of the items followed by the desired quantity of each.
 
-As this app is run through your terminal aka console the steps needed in order to successfully run the application may be different than what you are familiar with.
+As this app is run through your terminal (aka console) the steps needed in order to successfully run the application may be different than what you are familiar with.
 
-1. Install Node.js if not already present and have an available mySQL server. The BAMazon.sql file can be imported into your MySQL server to set up the back-end environment.
+1. Install Node.js if not already present and have an available MySQL server. The BAMazon.sql file can be imported into your MySQL server to set up the back-end environment.
 2. Using Terminal change to the directory where the app has been placed and enter "npm install" to install the required dependencies automatically.
-3. Decide which of the two "roles" you would like to work with and start the app using either "node [BAMamazonCutomer.js OR BAMamazonManager.js]".
-_For example to start the customer side enter "node BAMazonCustomer.js"_
+3. Start the app by entering "node BAMamazonCutomer".
 
 ### SCREENSHOTS
 Overall flow (starting BAMazonCustomer.js, ordering a few items during several "orders" after which the Stock shows the updated number remaining, trying to order more of an item than is available resulting in cancelled sale, exiting app after answering N when asked if another order is desired.)
-![Overview](https://github.com/jasapper/BAMazon/raw/master/images/Bamazon_flow.gif)
+![Overview](https://github.com/jasapper/BAMazon/raw/master/images/bamazon_flow.gif)
 
 #### Step 1
-Starting the (Customer) app which immediately lists the products available:
+Starting the app which immediately lists the products available:
 
 ![Step 1](https://github.com/jasapper/BAMazon/raw/master/images/Bamazon_step1.png)
 
